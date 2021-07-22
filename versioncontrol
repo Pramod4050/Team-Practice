@@ -10,6 +10,3 @@ Script output (such as "Hello World" below) is displayed at the start of the lin
 $ echo '#!/bin/sh' > my-script.sh
 $ echo 'echo Hello World' >> my-script.sh
 $ chmod 755 my-script.sh
-$ ./my-script.sh
-Hello World
-$
