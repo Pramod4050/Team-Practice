@@ -1,0 +1,15 @@
+Significant words will be written in italics when mentioned for the first time.
+
+Code segments and script output will be displayed as monospaced text.
+Command-line entries will be preceded by the Dollar sign ($). If your prompt is different, enter the command:
+
+PS1="$ " ; export PS1
+Then your interactions should match the examples given (such as ./my-script.sh below).
+Script output (such as "Hello World" below) is displayed at the start of the line.
+
+$ echo '#!/bin/sh' > my-script.sh
+$ echo 'echo Hello World' >> my-script.sh
+$ chmod 755 my-script.sh
+$ ./my-script.sh
+Hello World
+$
